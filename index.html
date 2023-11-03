@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Кнопка, открывающая модальное окно -->
+    <button id="helpButton" class="btn btn-sep icon-info">Справка</button>
+
+    <!-- Модальное окно -->
+    <div id="helpModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Справка</h2>
+        <p>Здесь будет первый абзац справочной информации.</p>
+        <p>Здесь будет второй абзац справочной информации.</p>
+        <a target="_blank" href="#">Подробная документация</a>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
